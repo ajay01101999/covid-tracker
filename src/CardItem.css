@@ -1,0 +1,13 @@
+.cards{
+    flex: 1;
+    margin-right: 5px;
+}
+.cards p{
+    padding: 0.5rem;
+}
+
+@media(max-width:500px){
+    .cards h2{
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,32 @@
+*{
+  margin:0;
+}
+.App{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(245 246 250);
+}
+.app_left{
+  flex: 0.9 1;
+  padding: 20px;
+}
+.app_header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.app_header h1{
+  color: #fc3c3c;
+}
+.app_card{
+  display: flex;
+  justify-content: space-evenly;
+}
+@media(max-width:990px){
+  .App{
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+  }
+}

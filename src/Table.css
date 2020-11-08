@@ -1,0 +1,13 @@
+.table_card{
+    height: 400px;
+    overflow-y: scroll !important;
+    margin-top: 20px;
+}
+.table_card tr{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+.table_card tr:nth-of-type(odd){
+    background-color: lightgray;
+}
